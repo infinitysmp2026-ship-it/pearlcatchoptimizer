@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "pearlcatchoptimizer",
+  "version": "${version}",
+  "name": "Pearl Catch Optimizer",
+  "description": "Client-side helper: LEFT CLICK with an Ender Pearl throws it, switches the real hotbar slot to a Wind Charge and uses it, all through vanilla input, animation and rendering.",
+  "authors": ["Pearl Catch Optimizer"],
+  "license": "MIT",
+  "icon": "assets/pearlcatchoptimizer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.pearlcatchoptimizer.PearlCatchOptimizerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
